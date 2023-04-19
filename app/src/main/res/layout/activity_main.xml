@@ -34,6 +34,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="x^y"
+                    android:onClick="btn_power"
                     android:textColor="#FFF4E0" />
 
                 <Button
@@ -45,7 +46,8 @@
                     android:insetTop="0dp"
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
-                    android:text="<X"
+                    android:text="AC"
+                    android:onClick="btn_clear"
                     android:textColor="#FFF4E0" />
 
                 <Button
@@ -57,7 +59,8 @@
                     android:insetTop="0dp"
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
-                    android:text="%"
+                    android:text="C"
+                    android:onClick="btn_delete"
                     android:textColor="#FFF4E0" />
 
                 <Button
@@ -69,7 +72,8 @@
                     android:insetTop="0dp"
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
-                    android:text="%"
+                    android:text="Rz"
+                    android:onClick="btn_root"
                     android:textColor="#FFF4E0" />
 
                 <Button
@@ -82,6 +86,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="/"
+                    android:onClick="btn_divide"
                     android:textColor="#FFF4E0" />
 
             </TableRow>
@@ -100,6 +105,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="X!"
+                    android:onClick="btn_factorial"
                     android:textColor="#FFF4E0" />
 
                 <Button
@@ -112,6 +118,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="7"
+                    android:onClick="btn_7"
                     android:textColor="#4D4D4D" />
 
                 <Button
@@ -124,6 +131,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="8"
+                    android:onClick="btn_8"
                     android:textColor="#4D4D4D" />
 
                 <Button
@@ -136,7 +144,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="9"
-                    android:onClick="EscribirNueve"
+                    android:onClick="btn_9"
                     android:textColor="#4D4D4D" />
 
                 <Button
@@ -149,6 +157,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="X"
+                    android:onClick="btn_multiply"
                     android:textColor="#FFF4E0" />
 
             </TableRow>
@@ -166,7 +175,8 @@
                     android:insetTop="0dp"
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
-                    android:text="PI"
+                    android:text="sin"
+                    android:onClick="btn_sin"
                     android:textColor="#FFF4E0" />
 
                 <Button
@@ -179,6 +189,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="4"
+                    android:onClick="btn_4"
                     android:textColor="#4D4D4D" />
 
                 <Button
@@ -191,6 +202,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="5"
+                    android:onClick="btn_5"
                     android:textColor="#4D4D4D" />
 
                 <Button
@@ -203,6 +215,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="6"
+                    android:onClick="btn_6"
                     android:textColor="#4D4D4D" />
 
                 <Button
@@ -215,6 +228,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="-"
+                    android:onClick="btn_subtract"
                     android:textColor="#FFF4E0" />
 
             </TableRow>
@@ -232,7 +246,8 @@
                     android:insetTop="0dp"
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
-                    android:text="loG"
+                    android:text="cos"
+                    android:onClick="btn_cos"
                     android:textColor="#FFF4E0" />
 
                 <Button
@@ -245,6 +260,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="1"
+                    android:onClick="btn_1"
                     android:textColor="#4D4D4D" />
 
                 <Button
@@ -257,6 +273,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="2"
+                    android:onClick="btn_2"
                     android:textColor="#4D4D4D" />
 
                 <Button
@@ -269,6 +286,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="3"
+                    android:onClick="btn_3"
                     android:textColor="#4D4D4D" />
 
                 <Button
@@ -281,6 +299,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="+"
+                    android:onClick="btn_add"
                     android:textColor="#FFF4E0" />
 
             </TableRow>
@@ -298,7 +317,8 @@
                     android:insetTop="0dp"
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
-                    android:text="IN"
+                    android:text="tan"
+                    android:onClick="btn_tan"
                     android:textColor="#FFF4E0" />
 
                 <Button
@@ -310,7 +330,8 @@
                     android:insetTop="0dp"
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
-                    android:text="E"
+                    android:text="Log"
+                    android:onClick="btn_log"
                     android:textColor="#FFF4E0" />
 
                 <Button
@@ -323,6 +344,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="0"
+                    android:onClick="btn_0"
                     android:textColor="#4D4D4D" />
 
                 <Button
@@ -335,6 +357,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="."
+                    android:onClick="btn_dot"
                     android:textColor="#FFF4E0" />
 
                 <Button
@@ -347,6 +370,7 @@
                     android:insetRight="0dp"
                     android:insetBottom="0dp"
                     android:text="="
+                    android:onClick="btn_equal"
                     android:textColor="#FFF4E0" />
 
             </TableRow>
@@ -354,17 +378,39 @@
         </TableLayout>
     </androidx.cardview.widget.CardView>
 
-    <EditText
-        android:id="@+id/editTextNumber3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <TextView
+        android:id="@+id/input_user"
+        android:layout_width="395dp"
+        android:layout_height="268dp"
+        android:layout_weight="2"
         android:ems="10"
+        android:gravity="center|end"
+        android:hint="0"
         android:inputType="number"
-        android:text="500"
+        android:maxLength="14"
+        android:padding="10dp"
+        android:textSize="50dp"
         app:layout_constraintBottom_toTopOf="@+id/cardView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <TextView
+        android:id="@+id/sign_user"
+        android:layout_width="146dp"
+        android:layout_height="93dp"
+        android:layout_weight="1"
+        android:gravity="center|end"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_user"
+        app:layout_constraintVertical_bias="0.492" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
